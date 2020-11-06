@@ -11,7 +11,7 @@ class Queue {
   }
   peek() {
     if (this.first === null) {
-      this.first = node;
+      this.first = null;
     }
     return this.first;
   }
